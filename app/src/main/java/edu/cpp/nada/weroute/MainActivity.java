@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void gotToActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, weather.class);
+        startActivity(intent);
+    }
+
     // A place has been received; use requestCode to track the request.
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -51,7 +56,9 @@ public class MainActivity extends AppCompatActivity {
 
                 ((TextView) findViewById(R.id.searched_address))
                         .setText(place.getName()+",\n"+
-                                place.getAddress() +"\n" + place.getPhoneNumber());
+                                place.getAddress() +"\n" +
+                                place.getPhoneNumber()+"\n" +
+                                place.getLatLng());
 
             } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {
                 Status status = PlaceAutocomplete.getStatus(this, data);

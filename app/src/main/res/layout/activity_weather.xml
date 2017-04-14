@@ -7,26 +7,22 @@
     android:orientation="vertical"
     tools:context="edu.cpp.nada.weroute.MainActivity">
 
-    <Button
-        android:id="@+id/findPlace"
+    <TextView
+        android:layout_margin="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search Google Places"
-        android:onClick="findPlace"/>
+        android:layout_height="200dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/findPlace"
+        android:id="@+id/weatherInfo"/>
 
     <TextView
         android:layout_margin="20dp"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="200dp"
         android:textSize="25dp"
         android:layout_below="@+id/findPlace"
-        android:id="@+id/searched_address"/>
+        android:id="@+id/dirInfo"/>
 
-    <Button
-        android:id="@+id/gotToActivity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Next"
-        android:onClick="gotToActivity"/>
+
 
 </LinearLayout>

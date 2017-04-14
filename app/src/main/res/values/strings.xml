@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WeRoute</string>
+    <string name="title_activity_weather">weather</string>
 </resources>
