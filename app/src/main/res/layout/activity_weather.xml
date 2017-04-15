@@ -1,19 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context="edu.cpp.nada.weroute.MainActivity">
 
-    <TextView
-        android:layout_margin="20dp"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:textSize="25dp"
-        android:layout_below="@+id/findPlace"
-        android:id="@+id/weatherInfo"/>
+        android:layout_height="wrap_content">
+
+        <com.github.pwittchen.weathericonview.WeatherIconView
+            android:id="@+id/weatherIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            custom:weatherIconResource="@string/wi_forecast_io_clear_day"
+            custom:weatherIconColor="@android:color/white"
+            custom:weatherIconSize="100"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="45dp"
+                    android:id="@+id/currentTemp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:id="@+id/currentSummary"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:id="@+id/nowSummary"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:id="@+id/tempMax"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:id="@+id/tempMin"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="56dp"
+                    android:layout_height="50dp"
+                    android:textSize="25dp"
+                    android:id="@+id/cloud"/>
+
+                <TextView
+                    android:layout_width="56dp"
+                    android:layout_height="50dp"
+                    android:textSize="25dp"
+                    android:id="@+id/rain"/>
+
+                <TextView
+                    android:layout_width="56dp"
+                    android:layout_height="50dp"
+                    android:textSize="25dp"
+                    android:id="@+id/humid"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
 
     <TextView
         android:layout_margin="20dp"

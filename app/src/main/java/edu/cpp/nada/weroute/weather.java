@@ -1,14 +1,17 @@
 package edu.cpp.nada.weroute;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.directions.route.Route;
 import com.directions.route.RouteException;
 import com.directions.route.Routing;
 import com.directions.route.RoutingListener;
+import com.github.pwittchen.weathericonview.WeatherIconView;
 import com.google.android.gms.maps.model.LatLng;
 import com.johnhiott.darkskyandroidlib.ForecastApi;
 import com.johnhiott.darkskyandroidlib.RequestBuilder;
@@ -41,12 +44,32 @@ public class weather extends Activity implements RoutingListener {
                 .build();
         routing.execute();
 
-        TextView weatherInfo = (TextView) findViewById(R.id.weatherInfo);
+        TextView currentTemp = (TextView) findViewById(R.id.currentTemp);
+        WeatherIconView weatherIconView = (WeatherIconView) findViewById(R.id.weatherIcon);
+        TextView currentSummary = (TextView) findViewById(R.id.currentSummary);
+        TextView nowSummary = (TextView) findViewById(R.id.nowSummary);
+        TextView tempMax = (TextView) findViewById(R.id.tempMax);
+        TextView tempMin = (TextView) findViewById(R.id.tempMin);
 
-        getCurrentWeather("34.0565284","-117.8215295", "SI", weatherInfo) ;
+        TextView cloud = (TextView) findViewById(R.id.cloud);
+        TextView humidity = (TextView) findViewById(R.id.humid);
+        TextView rain = (TextView) findViewById(R.id.rain);
+
+        getCurrentWeather("34.0565284","-117.8215295", "SI", currentTemp, weatherIconView, currentSummary,
+                                                    nowSummary, tempMax, tempMin, cloud, humidity, rain) ;
     }
 
-    public void getCurrentWeather(String lat,  String lon, String units, final TextView weatherInfo) {
+    public void getCurrentWeather(String lat,  String lon, String units,
+                                  final TextView currentTempView,
+                                  final WeatherIconView weatherIconView,
+                                  final TextView currentSummary,
+                                  final TextView nowSummary,
+                                  final TextView tempMax,
+                                  final TextView tempMin,
+                                  final TextView cloud,
+                                  final TextView humidity,
+                                  final TextView rain) {
+
         ForecastApi.create("e89a8b0f4b20f766a8a8a1a26b4f2fd9");
 
         RequestBuilder weather = new RequestBuilder();
@@ -64,9 +87,28 @@ public class weather extends Activity implements RoutingListener {
             @Override
             public void success(WeatherResponse weatherResponse, Response response) {
                 String currentTemp = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getTemperature()));
-                String displayedCurrentWeather = currentTemp + "° " + weatherResponse.getCurrently().getSummary();
-                weatherInfo.setText(displayedCurrentWeather);
+                String displayedCurrentWeather = currentTemp + "° " ; //+ weatherResponse.getCurrently().getSummary()
 
+                currentTempView.setText(displayedCurrentWeather);
+
+                //String icon_string = weatherResponse.getCurrently().getIcon().replaceAll("-", "_");
+                //weatherIconView.setIconResource("wi-forecast-io-rain");
+
+                currentSummary.setText(weatherResponse.getCurrently().getSummary());
+                nowSummary.setText(weatherResponse.getMinutely().getSummary());
+
+                String maxTemp = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getTemperatureMax()));
+                String minTemp = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getTemperatureMin()));
+
+                tempMax.setText(maxTemp);
+                tempMin.setText(minTemp);
+
+                //String rain = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getPrecipProbability()));
+
+
+                rain.setText(weatherResponse.getCurrently().getPrecipProbability());
+                humidity.setText(weatherResponse.getCurrently().getHumidity());
+                cloud.setText(weatherResponse.getCurrently().getCloudClover());
             }
             @Override
             public void failure(RetrofitError retrofitError) {
