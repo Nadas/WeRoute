@@ -1,11 +1,13 @@
 package edu.cpp.nada.weroute;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.TextView;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
@@ -13,19 +15,38 @@ import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlaceAutocomplete;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Places extends Activity {
+
+    static final String[] PLACES = new String[] { "Cal Poly Pomona", "Downtown LA", "Anaheim"};
+    List<String> ingredientsList= new ArrayList<String>();
+    ArrayAdapter<String> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_places);
+
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,ingredientsList);
+        ListView listView= (ListView) findViewById(R.id.listView1);
+        listView.setAdapter(adapter);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent intent = new Intent(Places.this, WeatherRouteDetails.class);
+
+                //temp hardcoded latlang
+                intent.putExtra("Lat", "33.688953");
+                intent.putExtra("Lng", "-117.8215295");
+
+                startActivity(intent);
+            }
+        });
     }
 
-    /*
-     * In this method, Start PlaceAutocomplete activity
-     * PlaceAutocomplete activity provides a -
-     * search box to search Google places
-     */
     public void findPlace(View view) {
         try {
             Intent intent =
@@ -41,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gotToActivity(View view) {
-        Intent intent = new Intent(MainActivity.this, weather.class);
+        Intent intent = new Intent(Places.this, WeatherRouteDetails.class);
         startActivity(intent);
     }
 
@@ -50,15 +71,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == 1) {
             if (resultCode == RESULT_OK) {
-                // retrive the data by using getPlace() method.
+
                 Place place = PlaceAutocomplete.getPlace(this, data);
                 Log.e("Tag", "Place: " + place.getAddress() + place.getPhoneNumber());
 
-                ((TextView) findViewById(R.id.searched_address))
-                        .setText(place.getName()+",\n"+
-                                place.getAddress() +"\n" +
-                                place.getPhoneNumber()+"\n" +
-                                place.getLatLng());
+                ingredientsList.add(place.getName().toString());
+                adapter.notifyDataSetChanged();
 
             } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {
                 Status status = PlaceAutocomplete.getStatus(this, data);

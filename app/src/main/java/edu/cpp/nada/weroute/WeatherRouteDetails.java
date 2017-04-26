@@ -1,9 +1,12 @@
 package edu.cpp.nada.weroute;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -25,9 +28,9 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 
-public class weather extends Activity implements RoutingListener {
+public class WeatherRouteDetails extends Activity implements RoutingListener {
 
-    private static final String TAG = "weather";
+    private static final String TAG = "WeatherRouteDetails";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,7 +108,6 @@ public class weather extends Activity implements RoutingListener {
 
                 //String rain = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getPrecipProbability()));
 
-
                 rain.setText(weatherResponse.getCurrently().getPrecipProbability());
                 humidity.setText(weatherResponse.getCurrently().getHumidity());
                 cloud.setText(weatherResponse.getCurrently().getCloudClover());
@@ -137,5 +139,11 @@ public class weather extends Activity implements RoutingListener {
     @Override
     public void onRoutingCancelled() {
 
+    }
+
+    public void goToGoogle(View view) {
+        Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+                Uri.parse("http://maps.google.com/maps?saddr=33.688953,-117.8303227&daddr=34.0565284,-117.8215295"));
+        startActivity(intent);
     }
 }

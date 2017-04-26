@@ -32,8 +32,14 @@ dependencies {
     compile 'com.github.johnhiott:DarkSkyApi:v0.1.5'
     compile 'com.github.jd-alexander:library:1.1.0'
     compile 'com.github.pwittchen:weathericonview:1.1.0'
+    compile 'com.android.support:support-v4:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+
+
+
+
+
 
 repositories {
     maven { url "https://jitpack.io" }

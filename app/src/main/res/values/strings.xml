@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">WeRoute</string>
     <string name="title_activity_weather">weather</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_places_list">PlacesList</string>
 </resources>
