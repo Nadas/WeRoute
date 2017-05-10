@@ -6,4 +6,8 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_places_list">PlacesList</string>
+    <string name="title_activity_listview_place_item">listview_place_item</string>
+    <string name="city_name">City Name</string>
+    <string name="navigate_using_gmaps">Navigate Using gMaps</string>
+    <string name="clouds">clouds</string>
 </resources>

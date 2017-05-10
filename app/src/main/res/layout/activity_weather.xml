@@ -5,20 +5,33 @@
     android:layout_height="match_parent"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context="edu.cpp.nada.weroute.WeatherRouteDetails">
+    android:background="@android:color/darker_gray"
+    tools:context="edu.cpp.nada.weroute.WeatherRouteDetailsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/city_name"
+        android:id="@+id/title"/>
 
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp">
 
         <com.github.pwittchen.weathericonview.WeatherIconView
             android:id="@+id/weatherIcon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:layout_margin="10dp"
             custom:weatherIconResource="@string/wi_forecast_io_clear_day"
             custom:weatherIconColor="@android:color/white"
+            android:padding="1dp"
             custom:weatherIconSize="100"/>
 
         <LinearLayout
@@ -33,23 +46,34 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:layout_width="70dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="45dp"
+                    android:textSize="45sp"
+                    android:text="58°"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
                     android:id="@+id/currentTemp"/>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="15dp"
+                    android:textSize="15sp"
+                    android:text="Partly Cloudy"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
                     android:id="@+id/currentSummary"/>
             </LinearLayout>
 
             <TextView
-                android:layout_margin="5dp"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif-light"
+                android:text="Partly cloudy for the hour."
                 android:id="@+id/nowSummary"/>
 
             <LinearLayout
@@ -60,13 +84,21 @@
                 <TextView
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:textSize="25dp"
+                    android:textSize="25sp"
+                    android:text="80°"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:fontFamily="sans-serif-medium"
+                    android:textStyle="bold"
                     android:id="@+id/tempMax"/>
 
                 <TextView
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:textSize="25dp"
+                    android:textSize="25sp"
+                    android:text="50°"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold"
                     android:id="@+id/tempMin"/>
             </LinearLayout>
 
@@ -74,30 +106,67 @@
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp">
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/umbrella"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="clouds"/>
 
                 <TextView
-                    android:layout_width="56dp"
-                    android:layout_height="50dp"
-                    android:textSize="25dp"
-                    android:id="@+id/cloud"/>
-
-                <TextView
-                    android:layout_width="56dp"
-                    android:layout_height="50dp"
-                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@android:color/white"
+                    android:text="1%"
+                    android:layout_marginRight="15dp"
                     android:id="@+id/rain"/>
 
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/cloudy"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="@string/clouds" />
                 <TextView
-                    android:layout_width="56dp"
-                    android:layout_height="50dp"
-                    android:textSize="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@android:color/white"
+                    android:text="20%"
+                    android:layout_marginRight="15dp"
+                    android:id="@+id/cloud"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/humidty"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="humidity"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@android:color/white"
+                    android:text="44%"
+                    android:layout_marginRight="7dp"
                     android:id="@+id/humid"/>
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:background="#000000"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"/>
 
     <LinearLayout
         android:orientation="vertical"
@@ -108,15 +177,14 @@
         android:layout_margin="20dp"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:textSize="25dp"
-        android:layout_below="@+id/findPlace"
+        android:textSize="25sp"
         android:id="@+id/dirInfo"/>
 
     <Button
         android:id="@+id/goToGoogle"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Navigate Using gMaps"
+        android:text="@string/navigate_using_gmaps"
         android:onClick="goToGoogle"/>
     </LinearLayout>
 

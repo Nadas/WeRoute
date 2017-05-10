@@ -1,10 +1,16 @@
 package edu.cpp.nada.weroute;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -28,17 +34,38 @@ import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 
-public class WeatherRouteDetails extends Activity implements RoutingListener {
+public class WeatherRouteDetailsActivity extends Activity implements RoutingListener {
 
-    private static final String TAG = "WeatherRouteDetails";
+    private static final String TAG = "WeatherRouteActivity";
+    private double currentLat;
+    private double currentLng;
+    private double distLat;
+    private double distLng;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
-        LatLng start = new LatLng(33.688953,-117.8303227);
-        LatLng end = new LatLng(34.0565284,-117.8215295);
+        Bundle extras = getIntent().getExtras();
+        String LatLangString = extras.getString("LatLang");
+        String[] latlong = LatLangString.split(",");
+
+        distLat = Double.parseDouble(latlong[0]);
+        distLng = Double.parseDouble(latlong[1]);
+
+        GPSTracker gps = new GPSTracker(WeatherRouteDetailsActivity.this);
+
+        currentLat = 0;
+        currentLng = 0;
+
+        if(gps.canGetLocation()) {
+            currentLat = gps.getLatitude();
+            currentLng = gps.getLongitude();
+        }
+
+        LatLng start = new LatLng(currentLat,currentLng);
+        LatLng end = new LatLng(distLat, distLng);
 
         Routing routing = new Routing.Builder()
                 .travelMode(Routing.TravelMode.DRIVING)
@@ -46,6 +73,9 @@ public class WeatherRouteDetails extends Activity implements RoutingListener {
                 .waypoints(start, end)
                 .build();
         routing.execute();
+
+        TextView title = (TextView) findViewById(R.id.title);
+        title.setText(extras.getString("Name"));
 
         TextView currentTemp = (TextView) findViewById(R.id.currentTemp);
         WeatherIconView weatherIconView = (WeatherIconView) findViewById(R.id.weatherIcon);
@@ -58,7 +88,7 @@ public class WeatherRouteDetails extends Activity implements RoutingListener {
         TextView humidity = (TextView) findViewById(R.id.humid);
         TextView rain = (TextView) findViewById(R.id.rain);
 
-        getCurrentWeather("34.0565284","-117.8215295", "SI", currentTemp, weatherIconView, currentSummary,
+        getCurrentWeather(String.valueOf(distLat),String.valueOf(distLng), "SI", currentTemp, weatherIconView, currentSummary,
                                                     nowSummary, tempMax, tempMin, cloud, humidity, rain) ;
     }
 
@@ -79,6 +109,7 @@ public class WeatherRouteDetails extends Activity implements RoutingListener {
         Request request = new Request();
         request.setLat(lat);
         request.setLng(lon);
+
         if (units.equals("SI")) {
             request.setUnits(Request.Units.SI);
         } else {
@@ -100,11 +131,11 @@ public class WeatherRouteDetails extends Activity implements RoutingListener {
                 currentSummary.setText(weatherResponse.getCurrently().getSummary());
                 nowSummary.setText(weatherResponse.getMinutely().getSummary());
 
-                String maxTemp = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getTemperatureMax()));
-                String minTemp = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getTemperatureMin()));
+                String maxTemp = String.valueOf((int)(float)Math.round(weatherResponse.getDaily().getData().get(0).getTemperatureMax()));
+                String minTemp = String.valueOf((int)(float)Math.round(weatherResponse.getDaily().getData().get(0).getTemperatureMin()));
 
-                tempMax.setText(maxTemp);
-                tempMin.setText(minTemp);
+                tempMax.setText(maxTemp+"°");
+                tempMin.setText(minTemp+"°");
 
                 //String rain = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getPrecipProbability()));
 
@@ -121,14 +152,13 @@ public class WeatherRouteDetails extends Activity implements RoutingListener {
     }
 
     @Override
-    public void onRoutingFailure(RouteException e) {
-
-    }
+    public void onRoutingFailure(RouteException e) { }
 
     @Override
-    public void onRoutingStart() {
+    public void onRoutingStart() { }
 
-    }
+    @Override
+    public void onRoutingCancelled() { }
 
     @Override
     public void onRoutingSuccess(ArrayList<Route> arrayList, int i) {
@@ -136,14 +166,9 @@ public class WeatherRouteDetails extends Activity implements RoutingListener {
                 .setText(arrayList.get(i).getDurationText());
     }
 
-    @Override
-    public void onRoutingCancelled() {
-
-    }
-
     public void goToGoogle(View view) {
         Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-                Uri.parse("http://maps.google.com/maps?saddr=33.688953,-117.8303227&daddr=34.0565284,-117.8215295"));
+                Uri.parse("http://maps.google.com/maps?saddr="+currentLat+","+currentLng+"&daddr="+distLat+","+distLng));
         startActivity(intent);
     }
 }
