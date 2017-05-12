@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.directions.route.Route;
 import com.directions.route.RouteException;
@@ -37,6 +38,7 @@ import retrofit.client.Response;
 public class WeatherRouteDetailsActivity extends Activity implements RoutingListener {
 
     private static final String TAG = "WeatherRouteActivity";
+    private TrackGPS gps;
     private double currentLat;
     private double currentLng;
     private double distLat;
@@ -54,14 +56,14 @@ public class WeatherRouteDetailsActivity extends Activity implements RoutingList
         distLat = Double.parseDouble(latlong[0]);
         distLng = Double.parseDouble(latlong[1]);
 
-        GPSTracker gps = new GPSTracker(WeatherRouteDetailsActivity.this);
-
         currentLat = 0;
         currentLng = 0;
 
-        if(gps.canGetLocation()) {
-            currentLat = gps.getLatitude();
-            currentLng = gps.getLongitude();
+        gps = new TrackGPS(WeatherRouteDetailsActivity.this);
+
+        if(gps.canGetLocation()){
+            currentLat = gps.getLongitude();
+            currentLng = gps .getLatitude();
         }
 
         LatLng start = new LatLng(currentLat,currentLng);
@@ -170,5 +172,11 @@ public class WeatherRouteDetailsActivity extends Activity implements RoutingList
         Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
                 Uri.parse("http://maps.google.com/maps?saddr="+currentLat+","+currentLng+"&daddr="+distLat+","+distLng));
         startActivity(intent);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        gps.stopUsingGPS();
     }
 }
