@@ -44,6 +44,8 @@ public class WeatherRouteDetailsActivity extends Activity implements RoutingList
     private double distLat;
     private double distLng;
 
+    private LocationManager locationManager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,15 +58,11 @@ public class WeatherRouteDetailsActivity extends Activity implements RoutingList
         distLat = Double.parseDouble(latlong[0]);
         distLng = Double.parseDouble(latlong[1]);
 
-        currentLat = 0;
-        currentLng = 0;
+        locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
 
-        gps = new TrackGPS(WeatherRouteDetailsActivity.this);
-
-        if(gps.canGetLocation()){
-            currentLat = gps.getLongitude();
-            currentLng = gps .getLatitude();
-        }
+        Location location = locationManager.getLastKnownLocation("gps");
+        currentLat = location.getLatitude();
+        currentLng = location.getLongitude();
 
         LatLng start = new LatLng(currentLat,currentLng);
         LatLng end = new LatLng(distLat, distLng);
