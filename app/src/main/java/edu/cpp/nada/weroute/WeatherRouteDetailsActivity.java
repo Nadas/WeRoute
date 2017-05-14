@@ -24,12 +24,17 @@ import com.johnhiott.darkskyandroidlib.models.WeatherResponse;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 
 
 public class WeatherRouteDetailsActivity extends Activity implements RoutingListener {
+    @BindView(R.id.wind) TextView wind;
+    @BindView(R.id.pressure) TextView pressure;
+    @BindView(R.id.visibility) TextView visibility;
 
     private static final String TAG = "WeatherRouteActivity";
     private double currentLat;
@@ -66,6 +71,8 @@ public class WeatherRouteDetailsActivity extends Activity implements RoutingList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
+
+        ButterKnife.bind(this);
 
         Bundle extras = getIntent().getExtras();
         String LatLangString = extras.getString("LatLang");
@@ -141,27 +148,25 @@ public class WeatherRouteDetailsActivity extends Activity implements RoutingList
             @Override
             public void success(WeatherResponse weatherResponse, Response response) {
                 String currentTemp = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getTemperature()));
-                String displayedCurrentWeather = currentTemp + "° " ; //+ weatherResponse.getCurrently().getSummary()
-
-                currentTempView.setText(displayedCurrentWeather);
-
-                //String icon_string = weatherResponse.getCurrently().getIcon().replaceAll("-", "_");
-                //weatherIconView.setIconResource("wi-forecast-io-rain");
-
-                currentSummary.setText(weatherResponse.getCurrently().getSummary());
-                nowSummary.setText(weatherResponse.getMinutely().getSummary());
-
                 String maxTemp = String.valueOf((int)(float)Math.round(weatherResponse.getDaily().getData().get(0).getTemperatureMax()));
                 String minTemp = String.valueOf((int)(float)Math.round(weatherResponse.getDaily().getData().get(0).getTemperatureMin()));
+                String icon_string = weatherResponse.getCurrently().getIcon().replaceAll("-", "_");
+                String rainPer = weatherResponse.getCurrently().getPrecipProbability();
+                String humidPer = weatherResponse.getCurrently().getHumidity();
+                String cloudPer = weatherResponse.getCurrently().getCloudClover();
+
+                //weatherIconView.setIconResource("wi-forecast-io-rain");
+
+                currentTempView.setText(currentTemp + "° ");
+                currentSummary.setText(weatherResponse.getCurrently().getSummary());
+                nowSummary.setText(weatherResponse.getMinutely().getSummary());
 
                 tempMax.setText(maxTemp+"°");
                 tempMin.setText(minTemp+"°");
 
-                //String rain = String.valueOf((int)(float)Math.round(weatherResponse.getCurrently().getPrecipProbability()));
-
-                rain.setText(weatherResponse.getCurrently().getPrecipProbability());
-                humidity.setText(weatherResponse.getCurrently().getHumidity());
-                cloud.setText(weatherResponse.getCurrently().getCloudClover());
+                rain.setText(rainPer.substring(rainPer.lastIndexOf(".") + 1)+"%");
+                humidity.setText(humidPer.substring(humidPer.lastIndexOf(".") + 1)+"%");
+                cloud.setText(cloudPer.substring(cloudPer.lastIndexOf(".") + 1)+"%");
             }
             @Override
             public void failure(RetrofitError retrofitError) {
