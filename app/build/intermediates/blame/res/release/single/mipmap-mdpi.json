@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/mipmap-mdpi/ic_add_circle_outline.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/mipmap-mdpi/ic_add_circle_outline.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]

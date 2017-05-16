@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/Nada/.android/build-cache/6ab12b1dcf6c947761f4230af51f23dcdb0f1d20/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

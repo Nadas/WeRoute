@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/interpolator/mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/interpolator/mr_fast_out_slow_in.xml"
+    }
+]

@@ -1,0 +1,494 @@
+[
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_media_route_on_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_media_route_on_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/umbrella.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/umbrella.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/bg.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/bg.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_forward30.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_media_route_on_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_forward.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_disconnect.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_stop_live_stream.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_skip_ad_label_border.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_closed_caption.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_cast_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_play_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_media_route_mono_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/humidity_48.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/humidity_48.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_closed_caption.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_dialog_material_background_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_play_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_play_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_skip_previous.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_mini_controller_progress_drawable.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/Nada/.android/build-cache/6ab12b1dcf6c947761f4230af51f23dcdb0f1d20/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_audiotrack_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/humidty.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/humidty.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_pause.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_media_route_connecting_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/ic_expand.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/ic_expand.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_skip_next.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/bg2.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/bg2.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/wind.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/wind.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/Nada/.android/build-cache/6ab12b1dcf6c947761f4230af51f23dcdb0f1d20/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_skip_prev.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_rewind30.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_forward30.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_cast_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_skip_prev.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_play.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_stop.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_skip_next.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_play.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_mini_controller_gradient_light.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_stop.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_stop.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_rewind30.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_pause_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_media_route_connecting_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_media_route_connecting_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_forward30.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_rewind30.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_pause_large.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/ic_collapse.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/ic_collapse.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_skip_next.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_mute.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_pause_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_play.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_pause.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_close_light.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_close_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_expanded_controller_seekbar_track.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_expanded_controller_seekbar_track.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_small_icon.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_dialog_material_background_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_play_large.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/Nada/.android/build-cache/6ab12b1dcf6c947761f4230af51f23dcdb0f1d20/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_rewind.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_connecting.xml",
+        "source": "/Users/Nada/.android/build-cache/5cb39cab8116d9981fb2252d6064ebd3d92a3940/output/res/drawable/cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_forward10.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_mini_controller_stop_large.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_pause.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_expanded_controller_mute.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_expanded_controller_seekbar_thumb.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/pressure.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/pressure.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_expanded_controller_bg_gradient_light.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cast_ic_notification_rewind10.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/visibility.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/visibility.png"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/Nada/.android/build-cache/3089c69992d0dacce5e411994d5c100c58039805/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/mr_ic_close_dark.xml",
+        "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_close_dark.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/release/drawable/cloudy.png",
+        "source": "/Users/Nada/Desktop/WeRoute/app/src/main/res/drawable/cloudy.png"
+    }
+]
