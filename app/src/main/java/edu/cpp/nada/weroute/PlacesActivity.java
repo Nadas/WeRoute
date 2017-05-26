@@ -83,7 +83,7 @@ public class PlacesActivity extends AppCompatActivity {
 
                 Log.e("Tag", "PlacesClass: " + foundPlace.getAddress() + foundPlace.getPhoneNumber());
 
-                PlacesClass newPlace = new PlacesClass(foundPlace.getLatLng(), foundPlace.getName().toString(), false);
+                PlacesClass newPlace = new PlacesClass(foundPlace.getLatLng(), foundPlace.getName().toString(), false, foundPlace.getAddress().toString());
                 savePlace(newPlace);
 
             } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {

@@ -16,12 +16,12 @@
         "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_cast_light.xml"
     },
     {
-        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
         "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/Nada/.android/build-cache/b8d7eb746a3a78b59068aa9e5b6ae0174f1f0a54/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
@@ -96,12 +96,12 @@
         "source": "/Users/Nada/.android/build-cache/8456bd3cf5ff1fcfdd84a91443bb22fe3aabf960/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
     },
     {
-        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
-        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_small_icon.xml"
-    },
-    {
         "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
         "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
+        "source": "/Users/Nada/.android/build-cache/71be1fd216eecc0459f4898525759aa417612a4e/output/res/drawable/cast_ic_notification_small_icon.xml"
     },
     {
         "merged": "/Users/Nada/Desktop/WeRoute/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",

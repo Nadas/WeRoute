@@ -11,14 +11,16 @@ public class PlacesClass {
     private LatLng latLang;
     private String name;
     private Boolean favorite;
+    private String city;
 
     public PlacesClass() {
     }
 
-    public PlacesClass(LatLng latLang, String name, Boolean favorite) {
+    public PlacesClass(LatLng latLang, String name, Boolean favorite, String city) {
         this.latLang = latLang;
         this.name = name;
         this.favorite = favorite;
+        this.city = city;
     }
 
     public String getName() {
@@ -45,4 +47,7 @@ public class PlacesClass {
         this.favorite = favorite;
     }
 
+    public String getCity() { return city; }
+
+    public void setCity(String city) { this.city = city; }
 }

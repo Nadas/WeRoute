@@ -10,4 +10,18 @@
     <string name="city_name">City Name</string>
     <string name="navigate_using_gmaps">Navigate Using gMaps</string>
     <string name="clouds">clouds</string>
+
+    <string name="wi_forecast_io_clear_day">&#xf00d;</string>
+    <string name="wi_forecast_io_clear_night">&#xf02e;</string>
+    <string name="wi_forecast_io_rain">&#xf019;</string>
+    <string name="wi_forecast_io_snow">&#xf01b;</string>
+    <string name="wi_forecast_io_sleet">&#xf0b5;</string>
+    <string name="wi_forecast_io_wind">&#xf050;</string>
+    <string name="wi_forecast_io_fog">&#xf014;</string>
+    <string name="wi_forecast_io_cloudy">&#xf013;</string>
+    <string name="wi_forecast_io_partly_cloudy_day">&#xf002;</string>
+    <string name="wi_forecast_io_partly_cloudy_night">&#xf031;</string>
+    <string name="wi_forecast_io_hail">&#xf015;</string>
+    <string name="wi_forecast_io_thunderstorm">&#xf01e;</string>
+    <string name="wi_forecast_io_tornado">&#xf056;</string>
 </resources>

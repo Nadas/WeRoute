@@ -32,8 +32,7 @@ public class PlaceArrayAdapter extends ArrayAdapter<PlacesClass> {
     @NonNull
     @Override
     public View getView(final int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        LayoutInflater layoutInflater = (LayoutInflater)
-                context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(layoutResource, parent, false);
 
         /*ImageView imageView = (ImageView) view.findViewById(R.id.profileImageView);
@@ -43,16 +42,7 @@ public class PlaceArrayAdapter extends ArrayAdapter<PlacesClass> {
         textViewName.setText(places.get(position).getName());
 
         TextView textViewNum = (TextView) view.findViewById(R.id.distanceTextView);
-        textViewNum.setText(places.get(position).getLatLang().toString());
-
-        /*Button addFriendButton = (Button) view.findViewById(R.id.addFriendButton);
-        addFriendButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                friendRecommendations.remove(position);
-                notifyDataSetChanged();
-            }
-        });*/
+        textViewNum.setText(places.get(position).getCity());
 
         return view;
     }

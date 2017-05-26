@@ -49,7 +49,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="45sp"
-                    android:text="58°"
+                    android:text="00°"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@android:color/white"
                     android:textStyle="bold"
@@ -85,7 +85,7 @@
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:textSize="25sp"
-                    android:text="80°"
+                    android:text="00°"
                     android:textColor="@android:color/holo_red_dark"
                     android:fontFamily="sans-serif-medium"
                     android:textStyle="bold"
@@ -95,7 +95,7 @@
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
                     android:textSize="25sp"
-                    android:text="50°"
+                    android:text="00°"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@android:color/holo_blue_dark"
                     android:textStyle="bold"
@@ -122,7 +122,7 @@
                     android:textSize="20sp"
                     android:fontFamily="sans-serif-thin"
                     android:textColor="@android:color/white"
-                    android:text="1%"
+                    android:text="0%"
                     android:layout_marginRight="15dp"
                     android:id="@+id/rain"/>
 
@@ -138,7 +138,7 @@
                     android:textSize="20sp"
                     android:fontFamily="sans-serif-thin"
                     android:textColor="@android:color/white"
-                    android:text="20%"
+                    android:text="00%"
                     android:layout_marginRight="15dp"
                     android:id="@+id/cloud"/>
 
@@ -154,7 +154,7 @@
                     android:textSize="20sp"
                     android:fontFamily="sans-serif-thin"
                     android:textColor="@android:color/white"
-                    android:text="44%"
+                    android:text="00%"
                     android:layout_marginRight="7dp"
                     android:id="@+id/humid"/>
 
@@ -178,9 +178,25 @@
                     android:textSize="12sp"
                     android:fontFamily="sans-serif-thin"
                     android:textColor="@android:color/white"
-                    android:text="1MPH"
+                    android:text="0MPH"
                     android:layout_marginRight="15dp"
                     android:id="@+id/wind"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/visibility"
+                    android:layout_marginRight="2dp"
+                    android:contentDescription="visibility"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:textSize="12sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@android:color/white"
+                    android:text="00mi"
+                    android:layout_marginRight="7dp"
+                    android:id="@+id/visibility"/>
 
                 <ImageView
                     android:layout_width="20dp"
@@ -194,26 +210,9 @@
                     android:textSize="15sp"
                     android:fontFamily="sans-serif-thin"
                     android:textColor="@android:color/white"
-                    android:text="20ni"
+                    android:text="00ni"
                     android:layout_marginRight="15dp"
                     android:id="@+id/pressure"/>
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="25dp"
-                    android:src="@drawable/visibility"
-                    android:layout_marginRight="2dp"
-                    android:contentDescription="visibility"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="25dp"
-                    android:textSize="15sp"
-                    android:fontFamily="sans-serif-thin"
-                    android:textColor="@android:color/white"
-                    android:text="15mi"
-                    android:layout_marginRight="7dp"
-                    android:id="@+id/visibility"/>
-
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
